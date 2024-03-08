@@ -39,13 +39,21 @@
             <artifactId>cucumber-picocontainer</artifactId>
             <version>1.2.4</version>
         </dependency>
-<!-- https://mvnrepository.com/artifact/org.openqa.selenium.webdriver/webdriver-common -->
-<dependency>
-    <groupId>org.openqa.selenium.webdriver</groupId>
-    <artifactId>webdriver-common</artifactId>
-    <version>0.5.524</version>
-</dependency>
-
+ <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.18.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-grid</artifactId>
+            <version>4.18.1</version>
+        </dependency>
+ <dependency>
+            <groupId>com.titusfortner</groupId>
+            <artifactId>selenium-logger</artifactId>
+            <version>2.4.0</version>
+        </dependency>
            
     </dependencies>
 
