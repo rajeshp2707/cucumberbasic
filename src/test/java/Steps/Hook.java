@@ -33,6 +33,7 @@ public class Hook extends BaseUtil{
  
         // Maximize the browser
         driver.manage().window().maximize();
+     driver.get();
     }
 
 
