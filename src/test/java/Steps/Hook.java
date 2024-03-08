@@ -24,9 +24,13 @@ public class Hook extends BaseUtil{
 
         //Passing a dummy WebDriver instance step info
      //  base.StepInfo = "FirefoxDriver";
-       System.setProperty("webdriver.chrome.driver","c:\\libs\\chromedriver.exe");
-       base.Driver= new ChromeDriver();
         
+       System.setProperty("webdriver.chrome.driver","c:\\libs\\chromedriver.exe");
+    
+        WebDriver driver = new ChromeDriver();
+ 
+        // Maximize the browser
+        driver.manage().window().maximize();
     }
 
 
