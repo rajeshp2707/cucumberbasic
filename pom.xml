@@ -43,8 +43,10 @@
 <dependency>
     <groupId>org.openqa.selenium.webdriver</groupId>
     <artifactId>webdriver-common</artifactId>
-    <version>0.6.870</version>
+    <version>0.5.524</version>
 </dependency>
+
+           
     </dependencies>
 
     
